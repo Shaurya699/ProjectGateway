@@ -36,31 +36,43 @@ export const navItems = [
       img: "/b5.svg",
       spareImg: "/grid.svg",
     },
+    {
+      id: 4,
+      title: "Founding Students of Cyber Club",
+      description: "Ayush, Vaibhav, Shaurya Rai, Anurag Shukla",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      imgClassName: "",
+      titleClassName: "justify-start",
+      img: "/grid.svg",
+      spareImg: "/b4.svg",
+    },
   ];
   
   export const projects = [
     {
       id: 1,
-      title: "Copy Writing a Book",
-      des: "This was a book which I copywrited as per the client's Instructions.",
+      title: "Neon Nights",
+      des: "This is an open world game with playable characters",
       img: "/1000.jpg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      vid: "/game.mp4",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     },
     {
       id: 2,
-      title: "Breadit - Law Learners",
-      des: "This website was built by me as per the instructions of the client for a place where curious law learners could ask doubts about their work.",
-      img: "/200.jpg",
+      title: "Edu Master - Students & Mangement",
+      des: "This is an app which is made for teachers and as-well as teacher, Students have various assesments to test their knowledge, Teacher have another portal to check the assesment given by the student.",
+      img: "/edumaster.jpg",
+      vid: "/edu.mp4",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: 'https://learn-law-another-one.vercel.app/'
+      link: ''
     },
     {
       id: 3,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "ProjectGateway",
+      des: "This is a website on which the best projects of St. Karen's Collegieate School will be published.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      link: "",
     },
     
   ];
@@ -69,16 +81,15 @@ export const navItems = [
     {
       id: 1,
       quote:
-        "Collaborating with Shaurya was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shaurya's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shaurya is the ideal partner.",
-      name: "Reena Rai",
-      title: "Customer",
+        "Rating: ⭐⭐⭐⭐⭐ (5/5) St. Karen's Collegiate School has exceeded my expectations in every way. The faculty is incredibly dedicated and goes above and beyond to ensure each student succeeds. The school's facilities are top-notch, providing a great environment for both academic and extracurricular activities. My child has shown significant improvement in both their studies and social skills since joining. The emphasis on holistic development is commendable. I highly recommend St. Karen's to any parent looking for a well-rounded education for their child.",
+      name: "Neeraj Shukla",
+      title: "Guardian",
     },
     {
         id: 2,
-          quote:
-              "Shaurya has proven to be an exceptional collaborator, consistently demonstrating strong teamwork and communication skills. He approaches each project with a positive attitude and a willingness to listen, making him an invaluable team member. His ability to integrate diverse perspectives and drive collective problem-solving enhances the group's productivity and innovation. Shaurya's reliability and proactive nature ensure that deadlines are met and that the collaborative process is both efficient and enjoyable. Overall, his contributions significantly elevate the quality of the team's output.",
-        name: "Sonal Yadav",
-        title: "Client",
+          quote: "Rating: ⭐⭐⭐⭐ (4/5) My experience with St. Karen's Collegiate School has been quite positive. The teachers are well-qualified and approachable, always willing to assist students who need extra help. The curriculum is comprehensive and challenging, which helps prepare students for higher education. The campus is clean and well-maintained, with ample facilities for sports and other activities. One area for improvement could be better communication between the school and parents regarding events and updates. Overall, a great institution that provides quality education.",
+        name: "Faisal Alam",
+        title: "Student",
       },
   ];
   
@@ -110,15 +121,12 @@ export const navItems = [
   
   export const socialMedia = [
     {
-      id: 1,
-      img: "/git.svg",
-    },
-    {
       id: 2,
       img: "/twit.svg",
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "/insta.svg",
+      link: "https://www.instagram.com/velocitystudious/",
     },
   ];

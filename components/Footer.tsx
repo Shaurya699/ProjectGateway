@@ -8,12 +8,12 @@ const Footer = () => {
     <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span>your</span> digital presence to the next level ?
+          Ready to take <span>your</span> digital presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-        Reach out us to upload your project to the website.          your goals.
+          Reach out to us to upload your project to the website.
         </p>
-        <a href="mailto:raishaurya50@gmail.com">
+        <a href="mailto:velocitystudious@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -29,9 +29,15 @@ const Footer = () => {
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (
-            <div key={profile.id} className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
+            <a
+              key={profile.id}
+              href={profile.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+            >
               <img src={profile.img} width={20} height={20} />
-            </div>
+            </a>
           ))}
         </div>
       </div>
