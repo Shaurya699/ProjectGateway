@@ -53,7 +53,7 @@ export const navItems = [
       id: 1,
       title: "Neon Nights",
       des: "This is an open world game with playable characters",
-      img: "/1000.jpg",
+      img: "/pro.jpg",
       vid: "/game.mp4",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     },
