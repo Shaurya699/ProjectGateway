@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Our tech stack",
+      title: "Tech Stack",
       description: "Our students always try to improve",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -71,6 +71,7 @@ export const navItems = [
       title: "ProjectGateway",
       des: "This is a website on which the best projects of St. Karen's Collegieate School will be published.",
       img: "/project.jpg",
+      vid: "/reproject.mp4",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "",
     },

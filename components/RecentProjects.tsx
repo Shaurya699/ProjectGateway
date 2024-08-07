@@ -50,7 +50,6 @@ const RecentProjects = () => {
             </p>
             <div className='flex items-center justify-between'>
               <div className='flex items-center'>
-                <h4>Made By - Vaibhav & Ayush</h4>
               </div>
             </div>
           </div>
