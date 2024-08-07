@@ -12,17 +12,17 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Stratergy"
+          title="Project Mapping"
                   icon={<AceternityIcon order="Phase 1" />}
-                      description="We collaborate with students to map out their goals and their targets."
+                      description="Students send their projects through mail with facilitated email id."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-          <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase 2" />}
-              description="we endorse with the students, From initial sketches to polished websites."
+          <Card title="Reviewing" icon={<AceternityIcon order="Phase 2" />}
+              description="we endorse with students projects, and finalize the project which is going to be shown on the website by the management."
           >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -35,7 +35,7 @@ const Approach = () => {
           />
         </Card>
               <Card title="Development & Launch" icon={<AceternityIcon order="Phase 3" />}
-                  description="This is where the magic happens! Based on the communications, building your project from the ground up."
+                  description="This is where the magic happens! Based on the decision of the management, the project will be on the website."
               >
           <CanvasRevealEffect
             animationSpeed={3}

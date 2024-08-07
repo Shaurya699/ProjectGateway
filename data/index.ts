@@ -70,7 +70,7 @@ export const navItems = [
       id: 3,
       title: "ProjectGateway",
       des: "This is a website on which the best projects of St. Karen's Collegieate School will be published.",
-      img: "/p4.svg",
+      img: "/project.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "",
     },
